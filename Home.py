@@ -35,8 +35,8 @@ df = pd.read_sql_query("SELECT * FROM fires", conn)
 key = st.text_input("Paste your OpenAI API key here: ")
 
 # Replace with your OpenAI API key
-# openai_api_key = key
-openai_api_key = 'sk-proj-Kig0RVOZ0wCBtvohuLhUT3BlbkFJECatHKWAPhCyKmy5BieQ'
+# openai_api_key = _______ please enter your open ai key here
+
 
 with st.expander("🔎Dataframe Preview"):
     st.write(df.head(5))
